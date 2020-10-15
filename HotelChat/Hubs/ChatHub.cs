@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelChat.Hubs
 {
-    public class ChatHub: Hub
+    public class ChatHub : Hub
     {
         public async Task SendMessage(string user, string message)
         {
